@@ -1,1 +1,18 @@
+body{
+    background-color: #184F29;
+    color: #00FF3A;
+}
+header{
+    background-color: blue;
+    color:yellow ;
+}
+section{
+    background-color: pink;
+    color: red;
+}
+footer{
+    background-color:purple ;
+    color:blue;
+}
+    
 
