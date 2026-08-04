@@ -1,18 +1,25 @@
 body{
     background-color: #184F29;
     color: #00FF3A;
+    font-family: Arial, sans-serif;
 }
+
 header{
     background-color: blue;
     color:yellow ;
+    text-align: center;
+    paddiing: 30px;
 }
-section{
-    background-color: pink;
-    color: red;
+
+h1{
+    font-size: 36px;
 }
-footer{
-    background-color:purple ;
+
+h2{
     color:blue;
 }
-    
 
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
