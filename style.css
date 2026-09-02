@@ -52,8 +52,8 @@ section {
     border-radius: 12px;
 }
 img {
-    wdth: 100%;
-    max-widthh: 600px;
+    width: 100%;
+    max-width: 600px;
     display: block;
     margin: auto;
     border-radius: 12px;
@@ -65,7 +65,7 @@ figcaption {
     margin-top: 8px;
 }
 
-card {
+.card {
     background-color: #f3d9fa;
     padding: 15px;
     margin: 15px 0;
@@ -73,7 +73,7 @@ card {
     border-radius: 10px;
 }
 
-card h3 {
+.card h3 {
     margin-top: 0;
 }
 footer {
