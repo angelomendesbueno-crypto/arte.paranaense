@@ -7,7 +7,7 @@ body{
 
 header{
     background-color: rgba(219, 0, 226, 0.788);
-    color:rgb(250, 250, 249) ;
+    color:rgb(250, 250, 249);
     text-align: center;
     padding: 30px;
 }
@@ -46,7 +46,7 @@ main {
     margin: auto;
 }
 section {
-    background-color: rgb(58, 6, 245)
+    background-color: rgb(58, 6, 245);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -82,4 +82,17 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color:#6b2d5c;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color:purple;
 }
