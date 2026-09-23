@@ -1,3 +1,5 @@
-const botao = document.querySelector("#botaoMensagem");
-
-const mensagem = document.querySelector("#mensagemInterativa");
+const botoesCurtir = document. querySelectorAll(".curtir");
+botoesCurtir.fortach (function(botaoCurtir){
+    let curtiu = false;
+    botaoCurtir.
+}
