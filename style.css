@@ -3,11 +3,12 @@
     --cor-texto:#fdfdfd;
     --cor-principal:rgb(248, 225, 13);
     --cor-secundaria:#c77dff;
-    --cor-card:;
+    --cor-hover:black;
     --cor-superficie:rgb(221, 0, 203);
-    --cor-rodape:;
-    --cor-clara:white;
+    --cor-card:red;
     --cor-legenda:#c40add;
+    --cor-clara:pink;
+    --cor-rodape:green;
 }
 
 body{
