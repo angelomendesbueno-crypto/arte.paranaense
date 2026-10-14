@@ -1,44 +1,46 @@
-:root{
-    --cor-fundo:#65077c;
-    --cor-texto:#fdfdfd;
-    --cor-principal:rgb(209, 12, 193);
-    --cor-secundaria:#c77dff;
-    --cor-hover:black;
-    --cor-superficie:rgb(221, 0, 203);
-    --cor-card:red;
-    --cor-legenda:#c40add;
-    --cor-clara:pink;
-    --cor-rodape:green;
+:root {
+    --cor-fundo: #65077c;
+    --cor-texto: #fdfdfd;
+    --cor-principal: rgb(209, 12, 193);
+    --cor-secundaria: #c77dff;
+    --cor-hover: black;
+    --cor-superficie: rgb(221, 0, 203);
+    --cor-card: red;
+    --cor-legenda: #c40add;
+    --cor-clara: pink;
+    --cor-rodape: green;
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-header{
+header {
     background-color: var(--cor-principal);
-    color:var(--cor-clara);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
 
-h1{
+h1 {
     font-size: 36px;
 }
 
-h2{
-    color:var(--cor-principal);
+h2 {
+    color: var(--cor-principal);
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
-    nav {
-        margin-top: 20px;
-    }
+}
+
+nav {
+    margin-top: 20px;
+}
 
 nav a {
     color: var(--cor-clara);
@@ -46,24 +48,26 @@ nav a {
     background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
-    margin:5px;
+    margin: 5px;
     display: inline-block;
 }
 
 nav a:hover {
     background-color: var(--cor-secundaria);
 }
-}
+
 main {
     width: 80%;
     margin: auto;
 }
+
 section {
     background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
 }
+
 img {
     width: 100%;
     max-width: 600px;
@@ -71,6 +75,7 @@ img {
     margin: auto;
     border-radius: 12px;
 }
+
 figcaption {
     text-align: center;
     font-size: 14px;
@@ -90,6 +95,7 @@ figcaption {
 .card h3 {
     margin-top: 0;
 }
+
 footer {
     background-color: #222222;
     color: rgb(0, 0, 0);
@@ -99,8 +105,8 @@ footer {
 }
 
 button {
-    background-color:#6b2d5c;
-    color:white;
+    background-color: #6b2d5c;
+    color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -108,7 +114,7 @@ button {
 }
 
 button :hover {
-    background-color:var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
 }
 
 .curtir {
@@ -116,12 +122,14 @@ button :hover {
     width: fit-content;
     margin: 20px auto;
 }
+
 .galeria {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .cards-curiosidades {
     display: flex;
     gap: 20px;
